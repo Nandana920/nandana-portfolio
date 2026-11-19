@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nandana Prakash | Portfolio</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2e;--text:#edf2ff;--muted:#a8b3cc;--accent:#8b9cff;--accent2:#65e0c2;--line:#27324a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:var(--accent2);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{width:min(1080px,92%);margin:auto}nav{position:sticky;top:0;background:#0b1020eF;backdrop-filter:blur(12px);border-bottom:1px solid var(--line);z-index:5}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0;gap:20px}.brand{font-weight:800;letter-spacing:.4px}.navlinks{display:flex;gap:18px;flex-wrap:wrap;font-size:14px}
+.hero{padding:90px 0 65px;display:grid;grid-template-columns:1.4fr .8fr;gap:38px;align-items:center}
+.eyebrow{color:var(--accent2);text-transform:uppercase;letter-spacing:2px;font-size:13px;font-weight:700}
+h1{font-size:clamp(38px,6vw,66px);line-height:1.08;margin:14px 0}h2{font-size:30px;margin:0 0 22px}h3{margin:0 0 8px}
+.lead{font-size:19px;color:var(--muted);max-width:680px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-block;padding:11px 18px;border-radius:12px;background:var(--accent);color:#0b1020;font-weight:700}.btn.secondary{background:transparent;color:var(--text);border:1px solid var(--line)}
+.profile{background:linear-gradient(145deg,#1c2944,#11182a);border:1px solid var(--line);border-radius:24px;padding:30px;text-align:center}
+.avatar{width:115px;height:115px;border-radius:50%;margin:0 auto 16px;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#0b1020;font-size:38px;font-weight:800}
+section{padding:55px 0;border-top:1px solid var(--line)}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px}
+.card p{color:var(--muted);margin:8px 0}.taglist{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.tag{background:#202b43;border:1px solid #34425e;padding:5px 10px;border-radius:999px;font-size:13px;color:#dbe4ff}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.skillbox{background:var(--panel);padding:18px;border-radius:16px;border:1px solid var(--line)}
+.timeline{border-left:2px solid var(--accent);padding-left:20px;margin-left:8px}.timeline-item{margin-bottom:24px}
+footer{text-align:center;padding:35px 0;color:var(--muted)}
+small{color:var(--muted)}.placeholder{color:#f4d28c}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:55px}.grid,.skills{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}.navlinks{gap:12px}.profile{max-width:380px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><div class="brand">NP · PORTFOLIO</div><div class="navlinks">
+<a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a>
+</div></div></nav>
+<main class="wrap">
+<header class="hero">
+<div>
+<div class="eyebrow">Computer Science · Data Science</div>
+<h1>Nandana<br>Prakash</h1>
+<p class="lead">Student developer interested in Artificial Intelligence, Machine Learning, Data Science, and building practical technology solutions.</p>
+<div class="buttons"><a class="btn" href="#projects">Explore my work</a><a class="btn secondary" href="#contact">Contact me</a></div>
+</div>
+<div class="profile"><div class="avatar">NP</div><h3>Student · Developer · Learner</h3><p>Curious about technology and motivated to turn ideas into useful projects.</p><div class="taglist" style="justify-content:center"><span class="tag">AI/ML</span><span class="tag">Python</span><span class="tag">Data Science</span><span class="tag">UI/UX</span></div></div>
+</header>
+<section id="about">
+<h2>About Me</h2>
+<div class="card"><p>I am a Computer Science student with an interest in Data Science, Artificial Intelligence, Machine Learning, software development, and user-focused design. I enjoy learning new technologies, collaborating on academic projects, and developing solutions that connect theory with real-world applications.</p><p>My project experience includes image-based classification, predictive maintenance dashboards, and exploring AI-powered applications. I am continuously improving my technical and problem-solving skills through coursework, projects, workshops, and internships.</p></div>
+</section>
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div class="skillbox"><h3>Programming</h3><div class="taglist"><span class="tag">Python</span><span class="tag">Java</span><span class="tag">SQL</span><span class="tag">HTML</span><span class="tag">CSS</span></div></div>
+<div class="skillbox"><h3>AI & Data</h3><div class="taglist"><span class="tag">Machine Learning</span><span class="tag">Data Science</span><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Scikit-learn</span></div></div>
+<div class="skillbox"><h3>Tools & Design</h3><div class="taglist"><span class="tag">Streamlit</span><span class="tag">Git/GitHub</span><span class="tag">VS Code</span><span class="tag">Figma</span><span class="tag">UI/UX Design</span></div></div>
+</div>
+<small>Update this list to reflect the tools and languages you can confidently use.</small>
+</section>
+<section id="projects">
+<h2>Projects</h2>
+<div class="grid">
+<div class="card"><h3>Intelligent E-Waste Classification & Recycling Recommendation</h3><p>AI-based project concept that classifies electronic waste from images and provides recycling guidance to support responsible disposal.</p><div class="taglist"><span class="tag">Computer Vision</span><span class="tag">Machine Learning</span><span class="tag">Image Classification</span></div><p><small>Project status: add dataset, model, results, and repository link.</small></p></div>
+<div class="card"><h3>Digital Twin for CNC Machine Monitoring</h3><p>Dashboard for intelligent manufacturing that visualizes simulated sensor readings, machine health, alerts, and Random Forest failure predictions to support predictive maintenance.</p><div class="taglist"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Random Forest</span><span class="tag">Dashboard</span></div><p><small>Includes simulated sensor data while hardware integration is in progress.</small></p></div>
+<div class="card"><h3>AI-Based Medical Image Classification</h3><p>Exploring a machine-learning application for classifying medical images and assisting image-based analysis.</p><div class="taglist"><span class="tag">AI</span><span class="tag">Deep Learning</span><span class="tag">Image Processing</span></div><p><small>Project idea / development status: update as applicable.</small></p></div>
+<div class="card"><h3>Academic & Programming Projects</h3><p>Coursework and lab projects involving Python programming, networking, cloud computing, data processing, and algorithm implementation.</p><div class="taglist"><span class="tag">Python</span><span class="tag">Networking</span><span class="tag">Cloud</span><span class="tag">Algorithms</span></div><p><small>Add individual project names and links when ready.</small></p></div>
+</div>
+</section>
+<section id="experience">
+<h2>Experience</h2>
+<div class="timeline">
+<div class="timeline-item"><h3>UI/UX Design Intern · Cognifyz Technologies</h3><p>Remote internship focused on UI/UX design and practical design tasks.</p><small>December 2025 – January 2026 · Verify exact dates before publishing</small><div class="taglist"><span class="tag">UI/UX</span><span class="tag">Design</span><span class="tag">Figma</span></div></div>
+</div>
+</section>
+<section id="certificates">
+<h2>Certificates & Workshops</h2>
+<div class="grid">
+<div class="card"><h3>Blockchain Learning · Skillsoft</h3><p>Course / learning certificate.</p><small class="placeholder">Add certificate image or verification link.</small></div>
+<div class="card"><h3>IEDC Start Innovation Workshop</h3><p>Participation in innovation and entrepreneurship learning.</p><small class="placeholder">Add date and certificate link.</small></div>
+<div class="card"><h3>UI/UX Workshop</h3><p>Workshop with a product design professional.</p><small class="placeholder">Add event details and certificate link.</small></div>
+<div class="card"><h3>Academic & Technical Events</h3><p>Include seminars, conferences, workshops, and technical events you attended.</p><small class="placeholder">Add event names, dates, and proof/links.</small></div>
+</div>
+</section>
+<section id="achievements">
+<h2>Achievements</h2>
+<div class="card"><p>Use this section to highlight hackathons, academic awards, project presentations, leadership roles, volunteering, and other accomplishments.</p><p class="placeholder">Add your achievements here—only include items you can verify.</p></div>
+</section>
+<section id="contact">
+<h2>Contact</h2>
+<div class="card"><p>I'm open to internships, collaborations, project opportunities, and learning experiences.</p>
+<p>Email: <a href="mailto:nandanap754@gmail.com">nandanap754@gmail.com</a></p>
+<p>LinkedIn: <a href="https://www.linkedin.com/in/nandana-prakash-353505281?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">View LinkedIn Profile</a></p>
+<p>GitHub: <a href="https://github.com/Nandana920" target="_blank" rel="noopener noreferrer">View GitHub Profile</a></p>
+<div class="buttons"><a class="btn secondary" href="mailto:nandanap754@gmail.com">Email me</a></div>
+</div>
+</section>
+</main>
+<footer><div class="wrap">© 2026 Nandana Prakash · Portfolio</div></footer>
+</body>
+</html>
